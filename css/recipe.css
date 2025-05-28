@@ -1,0 +1,17 @@
+.recipe-square {
+    display: inline-block;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.recipe-square img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.recipe-square h2 {
+    margin-top: 5px;
+}
