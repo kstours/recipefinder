@@ -19,7 +19,7 @@ A simple, lightweight PHP + MySQL web application that allows users to create, s
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/recipefinder.git /var/www/html/recipefinder
+git clone https://github.com/kstours/recipefinder.git /var/www/html/recipefinder
 ```
 
 Create a MySQL database (e.g., recipefinder) using phpMyAdmin or MySQL CLI.
