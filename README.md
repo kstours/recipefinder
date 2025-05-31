@@ -56,15 +56,10 @@ MAIL_PASS=your_email_password
 MAIL_PORT=port
 ```
 Set file permissions (Linux only):
+```
+sudo chown -R www-data:www-data /var/www/html/recipefinder
+sudo chmod -R 755 /var/www/html/recipefinder
 
-    sudo chown -R www-data:www-data /var/www/html/recipefinder
-    sudo chmod -R 755 /var/www/html/recipefinder
-
-### 3. Make sure the `uploads` folder inside your project is writable by Apache. You can allow Apache to manage it by running:
-
-```bash
-sudo chown -R www-data:www-data /var/www/html/recipefinder/uploads
-sudo chmod -R 755 /var/www/html/recipefinder/uploads
 ```
 
 
