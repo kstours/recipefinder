@@ -6,5 +6,6 @@ It supports:
 - Account recovery (via email authentication)
 - Create Upload and Delete recipies
 - View other peoples uploads
+- Search for recipes
 
 Live version: https://kylestours.com/recipefinder/
