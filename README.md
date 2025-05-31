@@ -59,7 +59,6 @@ Set file permissions (Linux only):
 ```
 sudo chown -R www-data:www-data /var/www/html/recipefinder
 sudo chmod -R 755 /var/www/html/recipefinder
-
 ```
 
 
