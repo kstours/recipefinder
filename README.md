@@ -1,4 +1,4 @@
-This is a simple recipe finder webapp made only using PHP and MYSQL.
+This is a simple recipe finder webapp made only using PHP and MySQL.
 
 It supports:
 - Password hashing (Bcrypt)
