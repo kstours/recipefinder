@@ -38,7 +38,13 @@ Create a MySQL database (e.g., recipefinder) using phpMyAdmin or MySQL CLI.
 
 ```mysql -u your_user -p your_database < database/recipefinder.sql```
 
-Configure environment variables by creating a .env file in the root directory with the following content:
+Set file permissions (Linux only):
+```
+sudo chown -R www-data:www-data /var/www/html/recipefinder
+sudo chmod -R 755 /var/www/html/recipefinder
+```
+
+### 3. Configure environment variables by creating a .env file in the root directory with the following content:
 ```
 #MySQL database
 
@@ -55,13 +61,6 @@ MAIL_USER=your_email_username
 MAIL_PASS=your_email_password
 MAIL_PORT=port
 ```
-Set file permissions (Linux only):
-```
-sudo chown -R www-data:www-data /var/www/html/recipefinder
-sudo chmod -R 755 /var/www/html/recipefinder
-```
-
-
 ## Live Demo
 
 Try the app live here: https://kylestours.com/recipefinder/
