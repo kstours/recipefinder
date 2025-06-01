@@ -10,7 +10,7 @@ A simple, lightweight PHP + MySQL web application that allows users to create, s
 - Create, upload, and delete your own recipes  
 - Upload images with your recipes  
 - Search and view other users' recipes  
-- Password recovery via email authentication  
+- Password recovery via email
 - Basic user authentication and session handling  
 
 ---
