@@ -74,8 +74,6 @@ Try the app live here: https://kylestours.com/recipefinder/
 
   -  HTML/CSS
 
-  -  JavaScript (optional)
-
 License
 
 This project is open source and free to use under the MIT License.
